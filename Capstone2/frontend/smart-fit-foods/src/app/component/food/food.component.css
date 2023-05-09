@@ -1,0 +1,36 @@
+.listing_post_image{
+  width: 220px !important;
+  height: 150px !important;
+}
+.list-choice {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  flex-wrap: wrap;
+  min-height: 70px;
+}
+
+.choices {
+  background: #3333;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #333;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.choices i {
+  cursor: pointer;
+  transition: all 0.3s linear;
+
+}
+
+.choices i:hover {
+  opacity: 0.7;
+  transition: all 0.3s linear;
+}
+
+

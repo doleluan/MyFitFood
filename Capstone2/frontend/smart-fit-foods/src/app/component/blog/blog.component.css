@@ -1,0 +1,156 @@
+.is_header_semitransparent #page>header.header1 {
+  background: #333;
+  height: 80px;
+}
+
+.like-cmt {
+  display: inline-block;
+  width: 96%;
+  text-align: center;
+  border-top: 1px solid #e6dede;
+  padding: 5px 0;
+  border-bottom: 1px solid #e6dede;
+  transform: translateX(-50%);
+  left: 50%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.like-cmt .like {
+  position: relative;
+  left: -150px;
+  padding: 8px 80px;
+}
+
+.like-cmt .cmt {
+  position: relative;
+  left: -100px;
+  padding: 8px 80px;
+}
+
+.like-cmt div:hover {
+  background: #3333;
+  transition: all 0.3s linear;
+}
+
+.like-cmt div {
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block;
+  transition: all 0.3s linear;
+}
+
+/* Content desciption */
+#content-description {
+  position: relative;
+}
+
+#content-description .text {
+  /*   width: 660px;  */
+  margin-bottom: 5px;
+  color: #777;
+  padding: 0 15px;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  display: block;
+}
+
+#content-description .show-more {
+  position: relative;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#content-description .show-more:hover {
+  color: #1779dd;
+}
+
+#content-description .show-more-height {
+  height: 100%;
+  display: -webkit-box;
+  max-height: 15rem;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 3;
+}
+
+.setting-sub {
+  display: block;
+  position: absolute;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  right: 20px;
+  border-radius: 10px;
+  z-index: 1111;
+}
+
+.setting-sub li {
+  padding: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.2s linear;
+}
+
+.setting-sub li:hover {
+  background-color: #33333311;
+  transition: all 0.2s linear;
+}
+
+.tencongthuc input {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #3333;
+  width: 100%;
+}
+
+.form-group.hinhanh {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.file-upload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+.loadMore2 {
+  display: none;
+}
+
+.loadHide2 {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.box-content .item-blog {
+  display: none;
+}
+
+

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0315d69c-a6a0-4d9e-a907-4a793cbb4fff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/person/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/animate-css/animate-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/buttons-css/buttons-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/dashicons-css/dashicons-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub-media-screens-css/foodhub-media-screens-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub-responsive-css/foodhub-responsive-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub/foodhub-gutenberg-frontend-css/foodhub-gutenberg-frontend-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub/foodhub-media-screens-css/foodhub-media-screens-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub/foodhub-mt-style-css/foodhub-mt-style-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub/foodhub-responsive-css/foodhub-responsive-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub/foodhub-style-css/foodhub-style-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub/foodhub-styles-footer-css/foodhub-styles-footer-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub/foodhub-styles-headers-css/foodhub-styles-headers-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub/foodhub-styles-module-blogloops-css/foodhub-styles-module-blogloops-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/foodhub/foodhub-styles-module-navigations-css/foodhub-styles-module-navigations-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/imgareaselect-css/imgareaselect-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/js_composer_front-css/js_composer_front-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/library-css/library-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/loaders-css/loaders-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/lrr-for-woocommerce-css/lrr-for-woocommerce-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/main-style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/media-views-css/media-views-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/mediaelement-css/mediaelement-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/mtlisitings-frontend-css/mtlisitings-frontend-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/owl-carousel-css/owl-carousel-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/rs-plugin-settings-css/rs-plugin-settings-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/style-animations-css/style-animations-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/style-mt-mega-menu-css/style-mt-mega-menu-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/style-new.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/style-select2-css/style-select2-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/style-shortcodes-inc-css/style-shortcodes-inc-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/vendors/vendors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/wc-block-style-css/wc-block-style-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/woocommerce/woocommerce-general-css/woocommerce-general-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/woocommerce/woocommerce-layout-css/woocommerce-layout-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/woocommerce/woocommerce-smallscreen-css/woocommerce-smallscreen-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/css/wrap/wp-mediaelement-css/wp-mediaelement-css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Blog/blog-pic01-625x375.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Blog/blogpost03-625x375.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Blog/blogpost04-625x375.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Blog/recipes-10-625x375.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Cake/recipe_massaman_soup-1-500x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Cake/recipes-05-500x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Cake/recipes-09-500x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Cake/recipes-17-1-500x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Cake/recipes-18-1-500x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Cake/recipes-19-500x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Cake/recipes-23-500x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Cake/recipes-24-500x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Steps/homemade-chocolate-cake-1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Steps/homemade-chocolate-cake-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Steps/homemade-chocolate-cake-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/Steps/homemade-chocolate-cake-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/bg_breadcrumbs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/call-to-action-v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/burger-categ1-500x500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/burger_categ-400x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/cuisine-category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/drinks_categ-400x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/pizza_categ-400x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/post-categories2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/post-categories3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/post-categories4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/post-categories5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/post-category01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/recipes-15-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/recipes-16-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/recipes-17-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/recipes-18-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/recipes-21-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/soup-category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/categorys/sweets_categ-400x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/course-img/recipe_massaman_soup-1-500x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/course-img/recipes-05-500x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/course-img/recipes-09-500x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/foodhub-slider-main-food-v4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/homemade-chocolate-cake-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/homemade-chocolate-cake-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/popular-food/homemade-chocolate-cake-1-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/popular-food/recipe_lobster_author-1-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/popular-food/recipe_massaman_soup-1-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/popular-food/recipes-30-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/tabs_listing1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/tabs_listing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/tabs_listing3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/tabs_listing4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/video-img/burger-categ1-700x600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/video-img/recipe_lobster_author-1-700x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/video-img/recipes-15-700x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/video-img/recipes-16-700x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/video-img/recipes-17-700x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/images/video-img/recipes-21-700x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/jquery/jquery-core-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/jquery/jquery-migrate-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/jquery/jquery-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/jquery/mtlisitings-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/chatgpt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/jqueryy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/mtlisitings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/owl-carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/select2-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/slick-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/vc_waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/js/scripts/wpb_composer_front.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/assets/videos/videonauan.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/backend/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/BackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/account/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/account/AccountRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/account/Roles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/food/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/food/FoodDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/food/FoodDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/person/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/post/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/post/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/post/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/post/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/recipe/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/recipe/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/recipe/RecipeDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/recipe/RecipeDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/recipe/RecipeDetailId.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/recipe/RecipeDetailId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/backend/model/recipe/TypeRecipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/backend/BackendApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/smart-fit-foods" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/smart-fit-foods/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/smart-fit-foods/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend/smart-fit-foods" />
+  </component>
+  <component name="ProjectId" id="2NYrZ7ciCes72oUT0mtFj5AbFSN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0315d69c-a6a0-4d9e-a907-4a793cbb4fff" name="Default Changelist" comment="" />
+      <created>1679851908449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679851908449</updated>
+      <workItem from="1679851909608" duration="417000" />
+      <workItem from="1680022844334" duration="415000" />
+      <workItem from="1682169027841" duration="590000" />
+      <workItem from="1682184937233" duration="8000" />
+      <workItem from="1682703779061" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

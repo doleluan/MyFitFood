@@ -1,0 +1,46 @@
+<body>
+
+
+<div class="header" style="width: 1920px; height: 930px;">
+  <div class="container">
+    <div class="form-container login-container">
+      <form [formGroup]="formGroup" (ngSubmit)="registor()">
+      <div style="width: 100%">
+        <div>
+          <input formControlName="username" type="text" placeholder="Tên tài khoản" style="text-align: center;">
+          <span>&nbsp;</span>
+          <span *ngIf="formGroup.controls.username.hasError('minlength')&& formGroup.controls.username.touched" style="color: red">Tài khoản không đạt yêu cầu</span>
+        </div>
+        <div>
+          <input formControlName="email" type="text" placeholder="Email" style="text-align: center;">
+          <span>&nbsp;</span>
+          <span *ngIf="formGroup.controls.email.hasError('pattern')&& formGroup.controls.email.touched" style="color: red">Email không đúng</span>
+        </div>
+      </div>
+        <div style="width: 100%" >
+          <div>
+            <input formControlName="password" type="password" placeholder="Mật khẩu" style="text-align: center;">
+            <span>&nbsp;</span>
+            <span *ngIf="formGroup.get('password').hasError('required') && formGroup.get('password').touched" style="color: red">Password không đạt yêu cầu</span>
+          </div>
+        <div>
+          <input formControlName="confirmPassword" type="password" placeholder="Nhập lại mật khẩu" style="text-align: center;">
+          <span>&nbsp;</span>
+          <span *ngIf="formGroup.hasError('mismatch')" style="color: red">Mật khẩu xác nhận không trùng khớp</span>
+        </div>
+        </div>
+        <button [disabled]="!this.formGroup.valid" class="btn">Đăng Ký</button>
+        <div>
+          <span>&nbsp;</span>
+          <span style="color: red"><strong>{{this?.conflicMessage}}</strong></span>
+        </div>
+        <a routerLink="/login">Có tài khoản rồi</a>
+
+      </form>
+    </div>
+
+  </div>
+</div>
+
+
+</body>

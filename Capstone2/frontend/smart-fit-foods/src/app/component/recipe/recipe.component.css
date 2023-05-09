@@ -1,0 +1,29 @@
+.tencongthuc input {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #3333;
+  width: 100%;
+}
+
+.form-group.hinhanh {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.file-upload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,96 @@
+<body data-rsssl="1"
+      class="archive tax-mt-listing-category2 term-burgers term-68 theme-foodhub woocommerce-js   widgets_v1   navstyle-v1           wpb-js-composer js-comp-ver-6.4.1 vc_responsive"
+      data-new-gr-c-s-check-loaded="14.1103.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.1103.0">
+
+<div id="page" class="site">
+  <div
+    style="width: 900px;padding: 15px; margin: 0 auto; border-radius: 10px;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+    <h2 style="text-align: center;">Công thức</h2>
+    <form class="congthuc" [formGroup]="formGroup">
+      <div class="form-group tencongthuc" style="text-align: left;">
+        <label><b>Tên công thức</b></label> <br>
+        <input formControlName="name" class="form-control" type="text" name="cook_name">
+        <span>&nbsp;</span>
+        <span *ngIf="formGroup.controls.name.hasError('required') && formGroup.controls.name.touched" style="color: red">Tên công thức không được để trống</span>
+      </div>
+      <div class="form-group hinhanh" style="text-align: left;">
+        <label><b>Hình ảnh</b></label> <br>
+        <img id="recipes-imgs-firebase" class="profile-pic" src="../../../assets/images/logo.png"/>
+        <input  formControlName="imgs" class="file-upload" type="file" accept="image/*" (change)="addFile($event)" />
+      </div>
+      <div>
+        <span>&nbsp;</span>
+        <span *ngIf="formGroup.controls.imgs.hasError('required') && formGroup.controls.imgs.touched" style="color: red">Hình ảnh không được để trống</span>
+      </div>
+      <div formArrayName="formArray">
+        <div *ngFor="let foodGroups of formArray.controls; let i = index" [formGroupName]="i"  class="form-group nguyenlieu" style="text-align: left;">
+          <label><b>Nguyên Liệu</b></label> <br>
+          <table>
+            <tr>
+              <th>
+                Nguyên liệu</th>
+              <th>
+                Khối lượng</th>
+            </tr>
+            <tr></tr>
+            <tr>
+              <td>
+                <div class="form-group">
+                  <select class="form-control" formControlName="food_detail_id">
+                    <option *ngFor="let item of this.food_detail" [value]="item.id">{{item.name}}</option>
+                  </select>
+                </div>
+              </td>
+              <td>
+                <div class="form-group">
+                  <input formControlName="quantity" class="form-control" type="text" name="quantity">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>&nbsp;</span>
+                <span *ngIf="formArray.controls[i].get('food_detail_id').errors?.required && formArray.controls[i].get('food_detail_id').touched" style="color: red">Nguyên liệu không được để trống</span>
+              </td>
+              <td>
+                <span>&nbsp;</span>
+                <span *ngIf="formArray.controls[i].get('quantity').errors?.pattern && formArray.controls[i].get('quantity').touched
+                || formArray.controls[i].get('quantity').errors?.validMoreThan0 && formArray.controls[i].get('quantity').touched" style="color: red">
+                  Nguyên liệu phải là số và nguyên liệu phải lớn hơn 0</span>
+              </td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+      <tr *ngIf="this.formArray.valid">
+        <td>
+          <button  (click)="addFormControl()">Thêm nguyên liệu</button>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <div class="form-group video" style="text-align: left;">
+        <label><b>Video</b></label> <br>
+        <div>
+          <label for="inputVideo">
+            <video style="width: 200px; height: 200px;" src="../../../assets/videos/videonauan.mp4" id="videoUpload"></video>
+          </label>
+        </div>
+        <input formControlName="videos" id="inputVideo" accept="video/*" (change)="uploadVideo($event)" style=" border: none; display: none" class="form-control" type="file">
+      </div>
+      <div>
+        <span>&nbsp;</span>
+        <span *ngIf="formGroup.controls.videos.hasError('required') && formGroup.controls.videos.touched" style="color: red">Video không được để trống</span>
+      </div>
+      <div class="form-group mota" style="text-align: left;">
+        <label><b>Mô tả công thức</b></label> <br>
+        <textarea formControlName="content" class="form-control" name="description" rows="4" cols="50"></textarea>
+        <span>&nbsp;</span>
+        <span *ngIf="formGroup.controls.content.hasError('required') && formGroup.controls.content.touched" style="color: red">Mô tả không được để trống</span>
+      </div>
+      <button *ngIf="formArray.valid && formGroup.valid" class="btn btn-success" type="submit" name="submit" (click)="submitFood()">Submit</button>
+    </form>
+  </div>
+</div>
+</body>

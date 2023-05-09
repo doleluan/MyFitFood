@@ -1,0 +1,31 @@
+<body>
+
+<div class="header" style="width: 1920px; height: 930px;">
+  <div class="container">
+    <div class="form-container login-container">
+      <form [formGroup]="formGroup">
+        <h1 style="color: #4d80e0;" routerLink="">Đăng Nhập</h1>
+
+        <input formControlName="username" type="username" placeholder="Tài khoản" style="text-align: center;">
+        <input formControlName="password" type="password" placeholder="Mật khẩu" style="text-align: center;">
+       <div>
+         <span>&nbsp; </span>
+         <span style="color: red">{{errorMessage}}</span>
+       </div>
+        <div class="content2">
+          <div class="checkbox">
+            <input type="checkbox">
+            <label>Ghi nhớ tài khoản</label>
+          </div>
+          <div class="pass-link">
+            <a class="qmk">Quên mật khẩu?</a>
+          </div>
+        </div>
+        <button class="btn" style="background-color:  #4d80e0;" (click)="login()">Đăng Nhập</button>
+        <a routerLink="/registor" >Tạo tài khoản</a>
+
+      </form>
+    </div>
+  </div>
+</div>
+</body>

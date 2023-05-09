@@ -1,0 +1,325 @@
+
+<body class="header1 " style="position: relative">
+<header class="header-new">
+  <nav class="navbar">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="navbar-header col-md-3">
+          <a class="logo">
+            <div style="height: 80px; transform: scaleX(.4);">
+              <img src="https://scontent.fdad3-5.fna.fbcdn.net/v/t1.15752-9/337293348_247717284346089_4127857930744177751_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=4YHkFgvmLfYAX8a1Fst&_nc_ht=scontent.fdad3-5.fna&oh=03_AdTiSDCKzgJLZAGfnRZsHwRA5XBR8oc7mHR_shwEb9J6Bg&oe=646C6973"
+                   alt="Foodhub" />
+            </div>
+          </a>
+        </div>
+        <div id="navbar" class=" col-md-9">
+          <ul class="menu ">
+            <li class="menu-item ">
+              <a routerLink="" aria-current="page">Trang Chủ</a>
+              <div class="cf-mega-menu sub-menu">
+                <ul>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item ">
+              <a routerLink="/food">Thực Phẩm</a>
+              <div class="cf-mega-menu sub-menu">
+                <ul>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item ">
+              <a href="#">Sức Khỏe</a>
+              <div class="cf-mega-menu sub-menu">
+                <ul>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item ">
+              <a >Chế độ dinh dưỡng</a>
+              <div class="cf-mega-menu sub-menu">
+                <ul>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                  <li class="sub-menu-item">1</li>
+                </ul>
+              </div>
+            </li>
+            <li *ngIf="!userCurrent" class="nav-login"><a routerLink="/login">Đăng nhập</a></li>
+            <li *ngIf="userCurrent" class="avatar avatar-header">
+              <div class="img">
+                <img src="{{userCurrent?.avatar}}"
+                     alt="">
+              </div>
+              <div class="drop-down-menu" style="display: none;">
+                <div routerLink="/blog"><i class="fa-sharp fa-solid fa-gear"></i>Đăng bài viết</div>
+                <div routerLink="/recipes"><i class="fa-sharp fa-solid fa-gear"></i>Thêm công thức</div>
+                <div><i class="fa-solid fa-right-from-bracket"></i>Edit profile</div>
+                <div (click)="logout()"><i class="fa-solid fa-right-from-bracket"></i>Logout</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="icon-chatbot">
+  <div class="name">Chatbot GPT</div>
+  <div class="avatarfqa__live-icon__XptWP" style="cursor: pointer; background-color: transparent;"><img
+    src="https://livechat-ui.fqa.vn/a0da9235b7a74c50315185d91b672a00.png"
+    style="width: 53px; height: 53px;"></div>
+</div>
+<!--<div class="chatbot-container" style="opacity: 0; transform: scale(0);">-->
+<!--  <div class="chat-us" style="display: flex; align-items: center;">-->
+<!--    <div style="width: 48px; margin-right: 5px;">-->
+<!--      <img style="width: 100%;" src="https://livechat-ui.fqa.vn/a0da9235b7a74c50315185d91b672a00.png"-->
+<!--           alt="">-->
+<!--    </div>-->
+<!--    <span>Chat GPT<i class="fa-regular fa-comments"></i></span>-->
+<!--    <span class="close-chat"><i class="fa-solid fa-xmark"></i></span>-->
+<!--  </div>-->
+<!--  <div class="chatbot-message-container">-->
+<!--&lt;!&ndash;    answer&ndash;&gt;-->
+<!--    <div>-->
+<!--      <div style="display: flex; align-items: center; position: relative;">-->
+<!--        <div style="max-width: 35px; padding-right: 5px; position: absolute; top: 12px;">-->
+<!--          <img style="width: 100%;"-->
+<!--               src="https://livechat-ui.fqa.vn/a0da9235b7a74c50315185d91b672a00.png" alt="">-->
+<!--        </div>-->
+<!--        <div style="margin-left: 35px;">-->
+<!--          <div class="chatbot-message bot-message"-->
+<!--               style="background-color: #f0f0f0; border-radius: 10px;">Xin chào tôi có thể giúp gì cho-->
+<!--            bạn?</div>-->
+<!--          <div *ngFor="let item of this.answer">-->
+<!--            <div class="chatbot-message bot-message"-->
+<!--                 style="background-color: #f0f0f0; border-radius: 10px;">{{item}}</div>-->
+<!--            <div style="text-align: right; font-size: 12px; color: #33333390;"><span>{{currentDateTime}}</span></div>-->
+<!--          </div>-->
+
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--&lt;!&ndash;    question&ndash;&gt;-->
+<!--    <div style="float: right;">-->
+<!--      <div *ngFor="let item of this.question" class="chatbot-message user-message"-->
+<!--           style="background-color: #ff884b; border-radius: 10px; color: #fff; width: fit-content;">-->
+<!--        {{item}}-->
+<!--        </div>-->
+<!--      <div style="text-align: left; font-size: 12px; color: #33333390;"><span>{{currentDateTime}}</span></div>-->
+
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="chatbot-input-container">-->
+<!--    <input #questionGPTId id="questionGPTId" type="text" (keyup.enter)="getGPT(questionGPTId.value)" class="chatbot-input" placeholder="Type your message here..." />-->
+<!--    <button class="chatbot-button"><i class="fa-regular fa-paper-plane" (click)="getGPT(questionGPTId.value)"></i></button>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div class="chatbot-container" style="opacity: 0; transform: scale(0);">
+  <div class="chat-us" style="display: flex; align-items: center;">
+    <div style="width: 48px; margin-right: 5px;">
+      <img style="width: 100%;" src="https://livechat-ui.fqa.vn/a0da9235b7a74c50315185d91b672a00.png"
+           alt="">
+    </div>
+    <span>Chat GPT<i class="fa-regular fa-comments"></i></span>
+    <span class="close-chat"><i class="fa-solid fa-xmark"></i></span>
+  </div>
+  <div class="chatbot-message-container">
+    <!-- Bot -->
+    <div *ngFor="let item of this.answer">
+      <!-- Bot message -->
+      <div style="display: flex; align-items: center; position: relative;">
+        <div style="max-width: 35px; padding-right: 5px; position: absolute; top: 12px;">
+          <img style="width: 100%;"
+               src="https://livechat-ui.fqa.vn/a0da9235b7a74c50315185d91b672a00.png" alt="">
+        </div>
+        <div style="margin-left: 35px;">
+          <div class="chatbot-message bot-message"
+               style="background-color: #f0f0f0; border-radius: 10px;">
+            {{item}}
+          </div>
+          <div style="text-align: right; font-size: 12px; color: #33333390;"><span>16:45</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Bot -->
+    <!-- User -->
+    <div *ngFor="let item of this.question" style="display: flex;justify-content: end;">
+      <!-- User message -->
+      <div >
+        <div  class="chatbot-message user-message"
+             style="background-color: #ff884b; border-radius: 10px; color: #fff; width: fit-content;">
+          {{item}}
+        </div>
+        <div style="text-align: left; font-size: 12px; color: #33333390;"><span>{{currentDateTime}}</span></div>
+      </div>
+    </div>
+    <!-- User -->
+
+<!--    &lt;!&ndash; Bot &ndash;&gt;-->
+<!--    <div>-->
+<!--      &lt;!&ndash; Bot message &ndash;&gt;-->
+<!--      <div style="display: flex; align-items: center; position: relative;">-->
+<!--        <div style="max-width: 35px; padding-right: 5px; position: absolute; top: 12px;">-->
+<!--          <img style="width: 100%;"-->
+<!--               src="https://livechat-ui.fqa.vn/a0da9235b7a74c50315185d91b672a00.png" alt="">-->
+<!--        </div>-->
+<!--        <div style="margin-left: 35px;">-->
+<!--          <div class="chatbot-message bot-message"-->
+<!--               style="background-color: #f0f0f0; border-radius: 10px;">-->
+<!--            ssssss-->
+<!--          </div>-->
+<!--          <div style="text-align: right; font-size: 12px; color: #33333390;"><span>16:45</span></div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash; Bot &ndash;&gt;-->
+<!--    &lt;!&ndash; User &ndash;&gt;-->
+<!--    <div style="display: flex;justify-content: end;">-->
+<!--      &lt;!&ndash; User message &ndash;&gt;-->
+<!--      <div >-->
+<!--        <div  class="chatbot-message user-message"-->
+<!--              style="background-color: #ff884b; border-radius: 10px; color: #fff; width: fit-content;">-->
+<!--          ssss-->
+<!--        </div>-->
+<!--        <div style="text-align: left; font-size: 12px; color: #33333390;"><span>{{currentDateTime}}</span></div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash; User &ndash;&gt;-->
+<!--    &lt;!&ndash; Bot &ndash;&gt;-->
+<!--    <div>-->
+<!--      &lt;!&ndash; Bot message &ndash;&gt;-->
+<!--      <div style="display: flex; align-items: center; position: relative;">-->
+<!--        <div style="max-width: 35px; padding-right: 5px; position: absolute; top: 12px;">-->
+<!--          <img style="width: 100%;"-->
+<!--               src="https://livechat-ui.fqa.vn/a0da9235b7a74c50315185d91b672a00.png" alt="">-->
+<!--        </div>-->
+<!--        <div style="margin-left: 35px;">-->
+<!--          <div class="chatbot-message bot-message"-->
+<!--               style="background-color: #f0f0f0; border-radius: 10px;">-->
+<!--            ssssss-->
+<!--          </div>-->
+<!--          <div style="text-align: right; font-size: 12px; color: #33333390;"><span>16:45</span></div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash; Bot &ndash;&gt;-->
+  </div>
+  <div class="chatbot-input-container">
+    <input (keyup.enter)="getGPT(questionGPTId.value)" #questionGPTId id="questionGPTId" type="text" class="chatbot-input" placeholder="Type your message here..." />
+    <button (click)="getGPT(questionGPTId.value)" class="chatbot-button"><i class="fa-regular fa-paper-plane"></i></button>
+  </div>
+</div>
+<router-outlet></router-outlet>
+<footer style="background: #7c8b78; color: #fff; position: relative; z-index: 10;">
+  <div class="footer-div-parent">
+    <div class="container footer">
+      <div class="container_inner_footer">
+        <div class="row ">
+          <div class="col-md-12" style="color: #fff; padding: 20px; text-align: center;">
+            <div class="widget-social pc_aligncenter">
+              <a href="#" target="_blank" style="color: #fff; padding-left: 15px;">
+                <i class="fa-brands fa-facebook-f"
+                   style="font-size: 24px; margin-right: 5px;"></i>
+              </a>
+              <a href="#" target="_blank" style="color: #fff; padding-left: 15px;">
+                <i class="fa-brands fa-instagram"
+                   style="font-size: 24px; margin-right: 5px;"></i></a>
+              <a href="#" target="_blank" style="color: #fff; padding-left: 15px;">
+                <i class="fa-brands fa-youtube" style="font-size: 24px; margin-right: 5px;"></i>
+              </a>
+              <a href="#" style="color: #fff; padding-left: 15px;">
+                <i class="fa-regular fa-envelope"
+                   style="font-size: 24px; margin-right: 5px;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center" style="padding: 10px 0;">
+          <div class="col-md-4">
+            <div class="caption"> Top Recipes</div>
+            <ul>
+              <li><a id="footer-top-recipes-1" href="#">Healthy
+                Breakfast Ideas</a></li>
+              <li><a id="footer-top-recipes-2" href="#">Easy Dinner
+                Ideas</a></li>
+              <li><a id="footer-top-recipes-3" href="#">Healthy Lunch
+                Ideas</a></li>
+              <li><a id="footer-top-recipes-4" href="#">Best Brunch Recipes</a>
+              </li>
+              <li><a id="footer-top-recipes-5" href="#">Vegan Recipes</a></li>
+              <li><a id="footer-top-recipes-6" href="#">Best Salad Recipes</a>
+              </li>
+              <li><a id="footer-top-recipes-7" href="#">Best Soup Recipes</a>
+              </li>
+              <li><a id="footer-top-recipes-8" href="#">Easy Appetizer Recipes</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="caption">
+              Cooking With Vegetables</div>
+            <ul>
+              <li><a id="footer-cooking-with-veg-1" href="#">Avocado</a></li>
+              <li><a id="footer-cooking-with-veg-2" href="#">Beets</a></li>
+              <li><a id="footer-cooking-with-veg-3" href="#">Brussels
+                Sprouts</a></li>
+              <li><a id="footer-cooking-with-veg-4" href="#/">Broccoli</a></li>
+              <li><a id="footer-cooking-with-veg-5" href="#">Butternut
+                Squash</a></li>
+              <li><a id="footer-cooking-with-veg-6" href="#">Cauliflower</a>
+              </li>
+              <li><a id="footer-cooking-with-veg-7" href="#">Spaghetti
+                Squash</a></li>
+              <li><a id="footer-cooking-with-veg-8" href="#">Sweet Potato</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="caption">
+              Plant-Based Cooking Basics</div>
+            <ul>
+              <li><a id="footer-plant-based-basics-1" href="#">Brown Rice</a>
+              </li>
+              <li><a id="footer-plant-based-basics-2" href="#">Lentils</a></li>
+              <li><a id="footer-plant-based-basics-3" href="#">Roasted
+                Chickpeas</a></li>
+              <li><a id="footer-plant-based-basics-4" href="#"></a></li>
+              <li><a id="footer-plant-based-basics-5" href="#/">Tofu</a></li>
+              <li><a id="footer-plant-based-basics-6" href="#"></a> </li>
+              <li><a id="footer-plant-based-basics-7" href="#"></a></li>
+              <li><a id="footer-plant-based-basics-8" href="#/">Zucchini Noodles</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" style="padding-bottom: 20px;">
+          <div class="col-md-12 text-center" style="color: #fff;">
+            Copyright © 2023 Capstone2, 254 Nguyen Van Linh.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
